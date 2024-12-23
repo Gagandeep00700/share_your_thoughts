@@ -1,0 +1,25 @@
+{
+    "name": "gagan/social",
+    "description": "A project for sending verification emails using PHPMailer.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gagan",
+            "email": "your-email@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gagan\\Social\\": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    }
+}

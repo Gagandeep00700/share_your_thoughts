@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Playwrite+HU:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-rendering: optimizeLegibility;
+    transition: all 0.2s ease-in-out;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    user-select: none;
+}
+
+body {
+    background-image: linear-gradient(to right, #87CEEB, #1E90FF);
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px; 
+}
+
+h1 {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+form {
+    height: 50vh;
+    width: 50vw;
+    border-radius: 15px;
+    box-shadow: inset 10px 0px 10px #212121,inset 0px 10px 10px #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px; 
+}
+
+form input {
+    height: 50px;
+    min-width: 40%;
+    width: max-content;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    box-shadow: inset 5px 0px 10px #414141;
+    text-align: center;
+}
+textarea
+{
+    border-radius: 15px;
+    box-shadow:  10px 0px 10px skyblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+button
+{
+    height: 50px;
+    width:100px;
+    background-image:linear-gradient(to right,hotpink, skyblue) ;
+    border-radius: 50px;
+    border: none;
+    box-shadow: inset 10px 0px 10px #1E90FF;
+}
+#login:active , #signin:active {
+    box-shadow: 10px 0px 10px #1E90FF;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    form {
+        width: 90vw;
+        height: auto;
+    }
+
+    form input {
+        width: 80%; 
+    }
+
+    button {
+        width: 80%; 
+    }
+}
+
+
+@media (max-width: 1024px) {
+    form {
+        width: 70vw;
+    }
+
+    form input {
+        width: 70%;
+    }
+
+    button {
+        width: 70%;
+    }
+}
+@media (min-width: 1200px) {
+    form {
+        width: 50vw;
+    }
+
+    form input {
+        width: 40%;
+    }
+
+    button {
+        width: 100px;
+    }
+}
