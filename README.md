@@ -21,7 +21,7 @@ A brief description of your project: SYT is a [short description of what the pro
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/syt.git
+   git clone https://github.com/Gagandeep00700/share_your_thoughts
    ```
 
 2. Navigate to the project directory:
